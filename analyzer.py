@@ -215,10 +215,10 @@ def analyze():
         output_file = "fashion_engagement_analysis.csv"
         df_final.to_csv(output_file, index=False)
         
-        print(f"\n{'='*70}")
+        
         print(f" Successfully analyzed {len(results)} posts!")
         print(f" Saved to: {output_file}")
-        print(f"{'='*70}")
+        
         
         print(f"\n TOP 5 PERFORMING OUTFITS:\n")
         top5 = df_final[["clothing_type", "confidence", "likes", "comments", "engagement_score"]].head()
@@ -239,6 +239,7 @@ def analyze():
 
 if __name__ == "__main__":
     analyze()
+
 
 
 
