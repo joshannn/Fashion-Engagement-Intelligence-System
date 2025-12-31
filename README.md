@@ -11,6 +11,14 @@ The project is divided into three primary components:
 3. **Advanced Analysis (v2):** High-accuracy classification using hierarchical prompting and multi-image feature averaging.
 
 ---
+# Instagram Fashion Analytics Pipeline
+
+1. **Download**: Fetch Instagram posts with engagement data using Instaloader
+2. **Classify**: Use CLIP AI model to identify clothing categories (6 types, 20+ variations)
+3. **Analyze**: Match outfits with engagement metrics and rank by performance
+4. **Insight**: Discover which fashion styles resonate most with your audience
+
+Built for content creators, fashion marketers, and data enthusiasts.
 
 ## Technical Components
 
